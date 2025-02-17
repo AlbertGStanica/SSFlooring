@@ -6,6 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SSFlooring</title>
     <link rel="stylesheet" href="styleSheet1.css">
+    <style>
+        .container {
+            text-align: center;
+            /* Centers inline text elements */
+            margin: 0 auto;
+            /* Centers block elements if given a width */
+            width: 80%;
+            /* Adjust width as needed */
+        }
+
+        a {
+            color: #0e1317;
+            /* Nice blue color */
+            text-decoration: none;
+            text-align: center;
+            /* Remove default underline */
+            font-weight: 600;
+            /* Make text slightly bold */
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+
+        a:hover {
+            color: #005fa3;
+            /* Darker blue on hover */
+            text-shadow: 0px 0px 8px rgba(0, 119, 204, 0.5);
+            /* Subtle glow effect */
+        }
+
+        a:active {
+            color: #003f73;
+            /* Even darker blue when clicked */
+        }
+
+        a:focus {
+            outline: 2px solid #0077cc;
+            /* Accessibility focus */
+            outline-offset: 3px;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,6 +70,25 @@
         </div>
         <a href="quote.html" class="quote-btn">Get a Quote</a>
     </nav>
+    <div class="container">
+        <a>At SSFlooring, we have a true passion for tile craftsmanship. With over 25 years of experience in the
+            industry, we take pride in delivering exceptional quality and precision in every project we undertake. From
+            intricate mosaic designs to large-scale installations, we bring skill, dedication, and an eye for detail to
+            every job.</a>
+        <br>
+        <a>
+            Based in Saint John, NB, we specialize in residential and commercial tile work, helping homeowners and
+            businesses transform their spaces with durable and beautiful tiling solutions. Whether it’s a custom
+            bathroom, a
+            stylish kitchen backsplash, or a complete flooring project, we are committed to exceeding expectations with
+            expert craftsmanship and superior materials.
+        </a>
+        <br>
+        <a>
+            We believe that every tile tells a story, and we are here to help bring your vision to life. Contact us
+            today to
+            discuss your next project!</a>
+    </div>
 
 
 </body>
